@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.head-continer {
+  background-image: linear-gradient(rgba(231, 224, 224, 0), hsla(0, 0%, 96%, 0)),
+    url("./images/desktop/image-hero.jpg");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head-continer .navbar .navbar-brand {
+  font-family: "Alata", sans-serif;
+  color: aliceblue;
+  font-size: 30px;
+}
+.head-continer .navbar .nav-link {
+  color: aliceblue;
+}
+.head-continer .navbar .none {
+  display: none;
+}
+
+.text-head-page {
+  color: aliceblue;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  line-height: 1em;
+}
+
+.text-continer .row div {
+  margin-left: 13%;
+  margin-top: 5%;
+  padding: 2%;
+}
+
+@media screen and (max-width: 984px) {
+  .navbar {
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+  .text-continer .row div {
+    margin-left: 8%;
+    margin-top: 28%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+  }
+  .text-head-page {
+    color: aliceblue;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 45px;
+    line-height: 1em;
+  }
+}

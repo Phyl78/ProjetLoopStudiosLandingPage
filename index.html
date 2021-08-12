@@ -1,61 +1,118 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="Site.css">
-  <title>Frontend Mentor | Loopstudios landing page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="Style.css" />
+    <title>Frontend Mentor | Loopstudios landing page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  About
-  Careers
-  Events
-  Products
-  Support
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header:
+            bg image.
+            avoir une menu.
+              - dans menu il y a un logo à gouch et 5 onglers à droit
+            une text h1
+    -->
 
-  Immersive experiences that deliver
+    <!-- container header -->
+    <div class="head-continer">
+      <!-- parti navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid m-lg-3 ps-lg-5 ms-lg-5">
+          <a class="navbar-brand ps-lg-3 ms-lg-5" href="#">loopstudios</a>
+          <button
+            id="navborger"
+            class="navbar-toggler navbar-dark"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon" id="navbarTogglerIcon"></span>
+            <span class="text-white none" id="navbarIconX">X</span>
+          </button>
+          <div
+            class="collapse navbar-collapse lg-d-flex justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav pe-lg-4 me-lg-5">
+              <a class="nav-link ms-lg-0" href="#">About</a>
+              <a class="nav-link ms-lg-4" href="#">Careers</a>
+              <a class="nav-link ms-lg-4" href="#">Events</a>
+              <a class="nav-link ms-lg-4" href="#">Products</a>
+              <a class="nav-link ms-lg-4" href="#">Support</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- fin navbar -->
 
-  The leader in interactive VR
-
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
-
-  Our creations
-
-  See all
-
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
-
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  © 2021 Loopstudios. All rights reserved.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-
-  <script src="Site.js"></script>
-</body>
+      <!-- parti text en bas de navbar -->
+      <div class="text-continer">
+        <div class="row">
+          <div class="col-lg-5 border border-2 col-md-5 col-10">
+            <p class="text-head-page p-lg-3 p-3 pb-0">
+              IMMERSIVE EXPERIENCES THAT DELIVER
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- fin parti text en bas de navbar -->
+    </div>
+    <!-- fin container header -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Phyl and Rouh</a>.
+    </div>
+    <!-- bootstrap lien -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fin bootstrap lien -->
+    <!-- page js -->
+    <script src="Main.js"></script>
+  </body>
 </html>
