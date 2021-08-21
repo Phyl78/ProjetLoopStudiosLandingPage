@@ -4,6 +4,7 @@
    position: relative; 
    margin-left: 90px;
    margin-top: 5px;
+   
 }
 
 .interactive
@@ -27,10 +28,12 @@
 .ecrit
 {
     text-align: justify;
-    margin-top:75px;
+    margin-top:48px;
     margin-left: 50px;
-    padding-right: 16px ;
+    margin-right: 50px;
+    padding-right: 40px ;
     font-size: 20px;
+    height:50px ;
 }
 
 .title
@@ -53,7 +56,7 @@
     flex-wrap: wrap;
     margin-top: 20px; 
     width: 100%;
-    /* margin-left: 50px; */
+    position: relative;
     
 } 
 
@@ -87,15 +90,24 @@
 
 .fond
 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    position: absolute  ;
+    color: black;
+    border: solid black 1px;
+    padding-left: 16px;
+    padding-right: 16px;
     font-size: 20px;
     letter-spacing: 3px;
+    margin-left: 1005px;
+    margin-top:550px ;
     
 }
 
 .img2
 {
+    /* afin de ne pas avoir de si grosse margin-top il me fallait mettre le 
+    container2 en position absolute comme ça j'aurai juste bougé le container avec
+    sa margin-top */
     position: relative;
     margin-top: 600px;
     margin-left: 100px;
@@ -232,4 +244,138 @@
     z-index: 1;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+@media (max-width:800px){
+
+    /*  le fait que j'ai mis mon container2 en absolute dans mon média query fait que 
+    il peut maintenant bouger tout seul au dessus du container1 qui lui est en position
+    relative */
+    #container2 {
+        flex-direction: column;
+        position: absolute;
+        margin-top: 150px;
+      
+    }
+
+    .img1 {
+        width: 330px;
+        height: 350px; 
+        
+    }
+
+    .img2 {
+        width: 330px;
+        height: 350px; 
+        margin-top: 40px; 
+        margin-left: 49px;
+    }
+
+    .img3 {
+        width: 330px;
+        height: 350px; 
+        margin-top: 40px; 
+        margin-left: 49px;
+    }
+
+    .img4 {
+        width: 330px;
+        height: 350px; 
+        margin-top: 40px; 
+        margin-left: 49px;
+    }
+
+    .img5 {
+        width: 330px;
+        height: 350px; 
+        margin-top: 40px; 
+        margin-left: 49px;
+    }
+
+    .img6 {
+        width: 330px;
+        height: 350px; 
+        margin-top: 40px; 
+        margin-left: 49px;
+    }
+
+    .img7 {
+        width: 330px;
+        height: 350px; 
+        margin-top: 40px; 
+        margin-left: 49px;
+    }
+
+    .img8 {
+        width: 330px;
+        height: 350px; 
+        margin-top: 40px; 
+        margin-left: 49px;
+    }
+
+    .interactive{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 100px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    #container1 {
+        margin-left: 30px;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 100px;
+        margin-left: 10px;
+        margin-top: 440px;
+    }
+    
+    .title{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2px;
+        margin-top: 220px;
+        width: 400px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .ecrit
+    {
+        display: flex;
+        margin-top: 5px;
+        margin-left: 2px;
+        width: 390px;
+        text-align: justify;
+        margin-bottom: 290px;
+    }
+
+    .creations{
+        display: flex;
+        flex-direction: column;
+        margin-left: 58px;
+        letter-spacing: 5px;
+        font-weight: lighter;
+        margin-top: 560px;
+        text-align: center;
+     
+        
+    }
+
+    .fond {
+        margin-top: 3930px;
+        margin-bottom: 30px;
+        text-align: center;
+        color: black;
+        margin-left: 159px;
+
+        /* position: arela; */
+        
+      
+    }
 }
