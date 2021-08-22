@@ -2,7 +2,7 @@
 #container1
 {
    position: relative; 
-   margin-left: 90px;
+   margin-left: 10px;
    margin-top: 5px;
    
 }
@@ -11,29 +11,30 @@
 {
     position: absolute;
     
+    
 }
 
 .text
 {
     position: absolute;
     justify-content: center; 
-    margin-top: 200px; 
+    margin-top: 170px; 
     background-color: white;
-    margin-right: -170%;
-    margin-left: 580px;
-    height: 400px;
+    margin-right: -150%;
+    margin-left: 480px;
+    height: 250px;
     
 }
 
 .ecrit
 {
     text-align: justify;
-    margin-top:48px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top:16px;
+    margin-left: 34px;
+    margin-right: 10px;
     padding-right: 40px ;
     font-size: 20px;
-    height:50px ;
+    height:50px;
 }
 
 .title
@@ -43,10 +44,10 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     height: 90px;
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 10px;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 33px;
 }
 
  #container2
@@ -57,6 +58,7 @@
     margin-top: 20px; 
     width: 100%;
     position: relative;
+    margin-left: 9px;
     
 } 
 
@@ -64,9 +66,9 @@
 {
     position: relative;
     margin-top: 600px;
-    margin-left: 50px;
+    margin-left: 82px;
     height: 300px;
-    width: 95%;
+    /* width: 95%; */
     z-index: 0;
 }
 
@@ -74,7 +76,7 @@
 {
     position: absolute;
     margin-top: -62px;
-    margin-left: 80px;
+    margin-left: 100px;
     color: white;
     z-index: 1;
     text-transform: uppercase;
@@ -85,7 +87,7 @@
 {
     position: absolute;
     margin-top: 550px;
-    margin-left: 90px;
+    margin-left: 80px;
 } 
 
 .fond
@@ -98,7 +100,7 @@
     padding-right: 16px;
     font-size: 20px;
     letter-spacing: 3px;
-    margin-left: 1005px;
+    margin-left: 755px;
     margin-top:550px ;
     
 }
@@ -110,16 +112,16 @@
     sa margin-top */
     position: relative;
     margin-top: 600px;
-    margin-left: 100px;
+    margin-left: 30px;
     height: 300px;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .titre2
 {
     position: absolute;
     margin-top: -62px;
-    margin-left: 130px;
+    margin-left: 50px;
     color: white;
     z-index: 1;
     text-transform: uppercase;
@@ -130,16 +132,16 @@
 {
     position: relative;
     margin-top: 600px;
-    margin-left: 100px;
+    margin-left: 30px;
     height: 300px;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .titre3
 {
     position: absolute;
     margin-top: -62px;
-    margin-left: 130px;
+    margin-left: 50px;
     color: white;
     z-index: 1;
     text-transform: uppercase;
@@ -150,16 +152,16 @@
 {
     position: relative;
     margin-top: 600px;
-    margin-left: 100px;
+    margin-left: 30px;
     height: 300px;
-    width: 77%;
+    /* width: 80%; */
 }
 
 .titre4
 {
     position: absolute;
     margin-top: -62px;
-    margin-left: 130px;
+    margin-left: 50px;
     color: white;
     z-index: 1;
     text-transform: uppercase;
@@ -170,16 +172,16 @@
 {
     position: relative;
     margin-top: 40px;
-    margin-left: 93px;
+    margin-left: 83px;
     height: 300px;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .titre5
 {
     position: absolute;
     margin-top: -62px;
-    margin-left: 120px;
+    margin-left: 100px;
     color: white;
     z-index: 1;
     text-transform: uppercase;
@@ -190,16 +192,16 @@
 {
     position: relative;
     margin-top: 40px;
-    margin-left: 98px;
+    margin-left: 30px;
     height: 300px;
-    width: 81%;
+    /* width: 81%; */
 }
 
 .titre6
 {
     position: absolute;
     margin-top: -62px;
-    margin-left: 130px;
+    margin-left: 50px;
     color: white;
     z-index: 1;
     text-transform: uppercase;
@@ -210,16 +212,16 @@
 {
     position: relative;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 30px;
     height: 300px;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .titre7
 {
     position: absolute;
     margin-top: -62px;
-    margin-left: 130px;
+    margin-left: 50px;
     color: white;
     z-index: 1;
     text-transform: uppercase;
@@ -230,21 +232,112 @@
 {
     position: relative;
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 30px;
     height: 300px;
-    width: 78%;
+    /* width: 78%; */
 }
 
 .titre8
 {
     position: absolute;
     margin-top: -62px;
-    margin-left: 130px;
+    margin-left: 50px;
     color: white;
     z-index: 1;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+.bas{
+
+    background-color: black;
+    color: white;
+    margin-top: 95px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+}
+
+.left{
+    width: 90%;
+}
+
+.item1{
+    /* margin-left: 5px; */
+}
+
+.item2{
+    /* margin-left: 6px; */
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    
+}
+
+#container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 70px;
+    justify-content: space-between;
+    margin-left: 87px;
+    
+}
+
+.loop{
+    margin-bottom: 30px;
+    padding-top: 25px;
+    margin-left: 90px;
+    font-weight: bold;
+}
+
+.all {
+    margin-left: 20px;
+}
+
+.reserved {
+    margin-left: 10px;
+    margin-bottom: 19px;
+    /* padding-right: 15px; */
+  
+} 
+
+ .fb{
+    margin-left: 17px;
+    margin-top: 25px;
+    
+}
+
+.tw{
+    margin-left: 50px;
+    margin-top: 25px;
+    
+}
+
+.pint{
+    margin-left: 50px;
+    margin-top: 25px;
+    
+}
+
+.insta{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.attribution{
+    background-color: black;
+    color: white;
+   padding-bottom: 10px;
+}
+
 
 @media (max-width:800px){
 
@@ -259,88 +352,98 @@
     }
 
     .img1 {
-        width: 330px;
-        height: 350px; 
+        width: 340px;
+        height: 160px; 
+        margin-left: 5px;
+
         
     }
 
     .img2 {
-        width: 330px;
-        height: 350px; 
+        width: 340px;
+        height: 160px; 
+        margin-left: 5px;
         margin-top: 40px; 
-        margin-left: 49px;
+        
     }
 
     .img3 {
-        width: 330px;
-        height: 350px; 
+        width: 340px;
+        height: 160px; 
+        margin-left: 5px;
         margin-top: 40px; 
-        margin-left: 49px;
+      
     }
 
     .img4 {
-        width: 330px;
-        height: 350px; 
+        width: 340px;
+        height: 160px; 
+        margin-left: 5px;
         margin-top: 40px; 
-        margin-left: 49px;
+        
     }
 
     .img5 {
-        width: 330px;
-        height: 350px; 
+        width: 340px;
+        height: 160px; 
+        margin-left: 5px;
         margin-top: 40px; 
-        margin-left: 49px;
+        
     }
 
     .img6 {
-        width: 330px;
-        height: 350px; 
+        width: 340px;
+        height: 160px; 
+        margin-left: 5px;
         margin-top: 40px; 
-        margin-left: 49px;
+        
     }
 
     .img7 {
-        width: 330px;
-        height: 350px; 
+        width: 340px;
+        height: 160px; 
+        margin-left: 5px;
         margin-top: 40px; 
-        margin-left: 49px;
+        
     }
 
     .img8 {
-        width: 330px;
-        height: 350px; 
+        width: 340px;
+        height: 160px; 
+        margin-left: 5px;
         margin-top: 40px; 
-        margin-left: 49px;
+        
     }
 
     .interactive{
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 420px;
         height: 100px;
-        margin-left: 10px;
+        margin-left: -6px;
         margin-bottom: 5px;
     }
 
     #container1 {
         margin-left: 30px;
+        /* margin-top: 10px; */
     }
 
     .text{
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 300px;
         height: 100px;
-        margin-left: 10px;
-        margin-top: 440px;
+        margin-left: -10px;
+        margin-top: 320px;
     }
     
     .title{
         display: flex;
         flex-direction: column;
-        margin-left: 2px;
+        margin-left: -15px;
         margin-top: 220px;
-        width: 400px;
+        width: 380px;
         font-size: 40px;
         text-align: center;
     }
@@ -350,7 +453,7 @@
         display: flex;
         margin-top: 5px;
         margin-left: 2px;
-        width: 390px;
+        width: 340px;
         text-align: justify;
         margin-bottom: 290px;
     }
@@ -358,24 +461,103 @@
     .creations{
         display: flex;
         flex-direction: column;
-        margin-left: 58px;
+        margin-left: 28px;
         letter-spacing: 5px;
         font-weight: lighter;
         margin-top: 560px;
         text-align: center;
      
-        
     }
 
     .fond {
-        margin-top: 3930px;
+        margin-top: 2460px;
         margin-bottom: 30px;
         text-align: center;
         color: black;
-        margin-left: 159px;
-
-        /* position: arela; */
-        
+        margin-left: 130px;
       
     }
+    
+    .bas{
+         margin-top: 2500px;
+         position: absolute;
+         width: 100%;
+         
+    }
+
+    .titre1{
+        margin-left: 30px;
+    }
+
+    .titre2{
+        margin-left: 30px;
+    }
+
+    .titre3{
+        margin-left: 30px;
+    }
+
+    .titre4{
+        margin-left: 30px;
+    }
+
+    .titre5{
+        margin-left: 30px;
+    }
+
+    .titre6{
+        margin-left: 30px;
+    }
+
+    .titre7{
+        margin-left: 30px;
+    }
+
+    .titre8{
+        margin-left: 30px;
+    }
+
+    .bas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+       margin-left: 70px;
+       margin-top: 10px;
+       /* justify-content: space-between; */
+    }
+
+    .right{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        /* margin-left: 190px; */
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 1px;
+        
+
+    }
+
+    .fb{
+
+        margin-left: 60px;
+    }
+
+    .loop{
+        
+        margin-left: 60px;
+    }
+
+    .reserved{
+        margin-left: 35px;
+        margin-top: 15px;
+    }
+
+
 }
