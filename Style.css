@@ -37,7 +37,7 @@ body {
   padding: 2%;
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 1000px) {
   .navbar {
     background-color: black;
     color: rgb(255, 255, 255);
@@ -59,12 +59,14 @@ body {
 
 #container1 {
   position: relative;
-  margin-left: 10px;
+  margin-left: 120px;
   margin-top: 5px;
+  /* margin: auto; */
 }
 
 .interactive {
   position: absolute;
+  /* width: 100px; */
 }
 
 .text {
@@ -73,7 +75,7 @@ body {
   margin-top: 170px;
   background-color: white;
   margin-right: -150%;
-  margin-left: 480px;
+  margin-left: 420px;
   height: 250px;
 }
 
@@ -82,7 +84,7 @@ body {
   margin-top: 16px;
   margin-left: 34px;
   margin-right: 10px;
-  padding-right: 40px;
+  /* padding-right: 40px; */
   font-size: 20px;
   height: 50px;
 }
@@ -104,9 +106,11 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 20px;
-  width: 100%;
-  position: relative;
-  margin-left: 9px;
+  width: 70%;
+  /* position: relative; */
+  margin-left: 90px;
+  margin: auto; 
+  /* justify-self: center; */
 }
 
 .img1 {
@@ -143,7 +147,7 @@ body {
   padding-right: 16px;
   font-size: 20px;
   letter-spacing: 3px;
-  margin-left: 755px;
+  margin-left: 933px;
   margin-top: 550px;
 }
 
@@ -287,6 +291,7 @@ body {
 
 .left {
   width: 90%;
+  
 }
 
 .right {
@@ -301,7 +306,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 40%;
+  width: 60%;
   height: 70px;
   justify-content: space-between;
   margin-left: 87px;
@@ -350,7 +355,13 @@ body {
   padding-bottom: 10px;
 }
 
-@media (max-width: 800px) {
+.img_mobile1, .img_mobile2, .img_mobile3, .img_mobile4, .img_mobile5, .img_mobile6, .img_mobile7, .img_mobile8 
+{
+  display: none;
+} 
+
+
+@media screen and  (max-width: 650px) {
   /*  le fait que j'ai mis mon container2 en absolute dans mon média query fait que 
     il peut maintenant bouger tout seul au dessus du container1 qui lui est en position
     relative */
@@ -363,64 +374,64 @@ body {
   .img1 {
     width: 340px;
     height: 160px;
-    margin-left: 5px;
+    margin-left: 16px;
   }
 
   .img2 {
     width: 340px;
     height: 160px;
-    margin-left: 5px;
+    margin-left: 16px;
     margin-top: 40px;
   }
 
   .img3 {
     width: 340px;
     height: 160px;
-    margin-left: 5px;
+    margin-left: 16px;
     margin-top: 40px;
   }
 
   .img4 {
     width: 340px;
     height: 160px;
-    margin-left: 5px;
+    margin-left: 16px;
     margin-top: 40px;
   }
 
   .img5 {
     width: 340px;
     height: 160px;
-    margin-left: 5px;
+    margin-left: 16px;
     margin-top: 40px;
   }
 
   .img6 {
     width: 340px;
     height: 160px;
-    margin-left: 5px;
+    margin-left: 16px;
     margin-top: 40px;
   }
 
   .img7 {
     width: 340px;
     height: 160px;
-    margin-left: 5px;
+    margin-left: 16px;
     margin-top: 40px;
   }
 
   .img8 {
     width: 340px;
     height: 160px;
-    margin-left: 5px;
+    margin-left: 16px;
     margin-top: 40px;
   }
 
   .interactive {
     display: flex;
     flex-direction: column;
-    width: 420px;
+    width: 320px;
     height: 100px;
-    margin-left: -6px;
+    margin-left: 35px;
     margin-bottom: 5px;
   }
 
@@ -450,8 +461,8 @@ body {
 
   .ecrit {
     display: flex;
-    margin-top: 5px;
-    margin-left: 2px;
+    margin-top: 30px;
+    margin-left: 10px;
     width: 340px;
     text-align: justify;
     margin-bottom: 290px;
@@ -460,7 +471,7 @@ body {
   .creations {
     display: flex;
     flex-direction: column;
-    margin-left: 28px;
+    margin-left: 15px;
     letter-spacing: 5px;
     font-weight: lighter;
     margin-top: 560px;
@@ -543,11 +554,226 @@ body {
   }
 
   .loop {
-    margin-left: 60px;
+    margin-left: 75px;
   }
 
   .reserved {
     margin-left: 35px;
     margin-top: 15px;
   }
+  .item3{
+    margin-top: 5px;
+  }
+}
+
+
+/* new media query */
+
+@media screen and (min-width: 650px) and  (max-width: 870px) {
+  /*  le fait que j'ai mis mon container2 en absolute dans mon média query fait que 
+    il peut maintenant bouger tout seul au dessus du container1 qui lui est en position
+    relative */
+  #container2 {
+    flex-direction: column;
+    position: absolute;
+    margin-top: 150px;
+  }
+
+  .img1 {
+    width: 340px;
+    height: 160px;
+    margin-left: 300px;
+  }
+
+  .img2 {
+    width: 340px;
+    height: 160px;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+
+  .img3 {
+    width: 340px;
+    height: 160px;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+
+  .img4 {
+    width: 340px;
+    height: 160px;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+
+  .img5 {
+    width: 340px;
+    height: 160px;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+
+  .img6 {
+    width: 340px;
+    height: 160px;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+
+  .img7 {
+    width: 340px;
+    height: 160px;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+
+  .img8 {
+    width: 340px;
+    height: 160px;
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+
+  .interactive {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 100px;
+    margin-left: -6px;
+    margin-bottom: 5px;
+  }
+
+  #container1 {
+    margin-left: 300px;
+    
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    margin-left: -10px;
+    margin-top: 320px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin-left: -15px;
+    margin-top: 220px;
+    width: 380px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .ecrit {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 2px;
+    width: 340px;
+    text-align: justify;
+    margin-bottom: 290px;
+  }
+
+  .creations {
+    display: flex;
+    flex-direction: column;
+    margin-left: 297px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    margin-top: 560px;
+    text-align: center;
+  }
+
+  .fond {
+    margin-top: 2460px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+    margin-left: 360px;
+  }
+
+  .bas {
+    margin-top: 2500px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .titre1 {
+    margin-left: 340px;
+  }
+
+  .titre2 {
+    margin-left: 340px;
+  }
+
+  .titre3 {
+    margin-left: 340px;
+  }
+
+  .titre4 {
+    margin-left: 340px;
+  }
+
+  .titre5 {
+    margin-left: 340px;
+  }
+
+  .titre6 {
+    margin-left: 340px;
+  }
+
+  .titre7 {
+    margin-left: 340px;
+  }
+
+  .titre8 {
+    margin-left: 340px;
+  }
+
+  .bas {
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    margin-left: 300px;
+    margin-top: 10px;
+    
+  }
+
+
+
+  .right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin-top: 10px; */
+    
+  }
+
+  .fb {
+    margin-left: 60px;
+    
+  }
+
+  .loop {
+    margin-left: 75px;
+  }
+
+  .reserved {
+    margin-left: 35 px;
+    margin-top: 55px;
+  }
+
+  /* .container3{
+    margin-bottom: 10px;
+  } */
 }
