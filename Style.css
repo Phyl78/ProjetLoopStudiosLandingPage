@@ -60,13 +60,26 @@ body {
 #container1 {
   position: relative;
   margin-left: 120px;
-  margin-top: 5px;
+  margin-top: 25px;
+  display: flex;
+  
+  
+  
   /* margin: auto; */
 }
 
 .interactive {
   position: absolute;
+  height: 400px;
+  width: 550px;
+  border: 2px solid greenyellow;
+  margin: auto;
   /* width: 100px; */
+}
+
+.preum{
+  height: 100%;
+  width: 100%; 
 }
 
 .text {
@@ -77,6 +90,7 @@ body {
   margin-right: -150%;
   margin-left: 420px;
   height: 250px;
+  border: 2px solid slateblue;
 }
 
 .ecrit {
@@ -96,7 +110,7 @@ body {
   letter-spacing: 2px;
   height: 90px;
   font-size: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   margin-top: 10px;
   margin-left: 33px;
 }
@@ -105,20 +119,31 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 20px;
-  width: 70%;
+  border: 1px solid green;
+  width: 60%;
   /* position: relative; */
-  margin-left: 90px;
   margin: auto; 
-  /* justify-self: center; */
+
+}
+
+#container1{
+  border: 2px solid yellow;
+  position: relative;
+  margin-right: 45px;
+  height: 500px;
+}
+
+.ig{
+  border: 2px solid blue;
+  width: 180px;
+  height: 300px;
+  margin: 70px auto 0px;
 }
 
 .img1 {
   position: relative;
-  margin-top: 600px;
-  margin-left: 82px;
-  height: 300px;
-  /* width: 95%; */
+  height: auto;
+  width: 100%;  
   z-index: 0;
 }
 
@@ -134,8 +159,7 @@ body {
 
 .creations {
   position: absolute;
-  margin-top: 550px;
-  margin-left: 80px;
+  margin-left: 10px;
 }
 
 .fond {
@@ -147,19 +171,19 @@ body {
   padding-right: 16px;
   font-size: 20px;
   letter-spacing: 3px;
-  margin-left: 933px;
-  margin-top: 550px;
+  margin-left: 995px;
+  margin-top: 15px;
+  
 }
 
 .img2 {
   /* afin de ne pas avoir de si grosse margin-top il me fallait mettre le 
-    container2 en position absolute comme ça j'aurai juste bougé le container avec
+    container2 en position absolute comme ça j'aurai juste a bougé le container avec
     sa margin-top */
   position: relative;
-  margin-top: 600px;
-  margin-left: 30px;
-  height: 300px;
-  /* width: 80%; */
+  height: auto;
+  width: 100%; 
+ 
 }
 
 .titre2 {
@@ -174,10 +198,9 @@ body {
 
 .img3 {
   position: relative;
-  margin-top: 600px;
-  margin-left: 30px;
-  height: 300px;
-  /* width: 80%; */
+  height: auto;
+  width: 100%; 
+  
 }
 
 .titre3 {
@@ -192,10 +215,8 @@ body {
 
 .img4 {
   position: relative;
-  margin-top: 600px;
-  margin-left: 30px;
-  height: 300px;
-  /* width: 80%; */
+  height: auto;
+  width: 100%; 
 }
 
 .titre4 {
@@ -210,10 +231,8 @@ body {
 
 .img5 {
   position: relative;
-  margin-top: 40px;
-  margin-left: 83px;
-  height: 300px;
-  /* width: 80%; */
+  height: auto;
+  width: 100%; 
 }
 
 .titre5 {
@@ -228,10 +247,8 @@ body {
 
 .img6 {
   position: relative;
-  margin-top: 40px;
-  margin-left: 30px;
-  height: 300px;
-  /* width: 81%; */
+  height: auto;
+  width: 100%; 
 }
 
 .titre6 {
@@ -246,10 +263,8 @@ body {
 
 .img7 {
   position: relative;
-  margin-top: 40px;
-  margin-left: 30px;
-  height: 300px;
-  /* width: 80%; */
+  height: auto;
+  width: 100%; 
 }
 
 .titre7 {
@@ -264,10 +279,8 @@ body {
 
 .img8 {
   position: relative;
-  margin-top: 40px;
-  margin-left: 30px;
-  height: 300px;
-  /* width: 78%; */
+  height: auto;
+  width: 100%; 
 }
 
 .titre8 {
@@ -361,11 +374,11 @@ body {
 } 
 
 
-@media screen and  (max-width: 650px) {
+@media screen and  (max-width: 685px) {
   /*  le fait que j'ai mis mon container2 en absolute dans mon média query fait que 
     il peut maintenant bouger tout seul au dessus du container1 qui lui est en position
     relative */
-  #container2 {
+  /* #container2 {
     flex-direction: column;
     position: absolute;
     margin-top: 150px;
@@ -424,39 +437,44 @@ body {
     height: 160px;
     margin-left: 16px;
     margin-top: 40px;
-  }
+  } */
+
+  
 
   .interactive {
     display: flex;
     flex-direction: column;
-    width: 320px;
-    height: 100px;
-    margin-left: 35px;
-    margin-bottom: 5px;
+    height: 400px;
+    width: 450px;
+    
+  }
+
+  .preum{
+    margin-left: 80px;
   }
 
   #container1 {
-    margin-left: 30px;
-    /* margin-top: 10px; */
+    margin:auto ;
+
   }
 
   .text {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 100px;
-    margin-left: -10px;
-    margin-top: 320px;
+    width: 400px;
+    height: 400px;
+    /* margin-right: auto; */
+    border: 2px solid red;
   }
 
   .title {
     display: flex;
     flex-direction: column;
-    margin-left: -15px;
     margin-top: 220px;
+    margin-right: 80px;
     width: 380px;
     font-size: 40px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .ecrit {
@@ -569,11 +587,11 @@ body {
 
 /* new media query */
 
-@media screen and (min-width: 650px) and  (max-width: 870px) {
+@media screen and (max-width: 1100px) {
   /*  le fait que j'ai mis mon container2 en absolute dans mon média query fait que 
     il peut maintenant bouger tout seul au dessus du container1 qui lui est en position
     relative */
-  #container2 {
+  /* #container2 {
     flex-direction: column;
     position: absolute;
     margin-top: 150px;
@@ -646,6 +664,10 @@ body {
   #container1 {
     margin-left: 300px;
     
+  }*/
+
+  #container2{
+    margin-top: 300px;
   }
 
   .text {
@@ -653,19 +675,19 @@ body {
     flex-direction: column;
     width: 300px;
     height: 100px;
-    margin-left: -10px;
-    margin-top: 320px;
-  }
+    margin: 500px 140px;
+   
+  } 
 
-  .title {
-    display: flex;
-    flex-direction: column;
+   .title {
+    /* display: flex;
+    flex-direction: column; */
     margin-left: -15px;
     margin-top: 220px;
     width: 380px;
     font-size: 40px;
     text-align: center;
-  }
+  } 
 
   .ecrit {
     display: flex;
@@ -674,6 +696,10 @@ body {
     width: 340px;
     text-align: justify;
     margin-bottom: 290px;
+  }
+
+  .interactive{
+    margin: auto;
   }
 
   .creations {
