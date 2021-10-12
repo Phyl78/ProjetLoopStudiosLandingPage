@@ -63,8 +63,6 @@ body {
   margin-top: 25px;
   display: flex;
   
-  
-  
   /* margin: auto; */
 }
 
@@ -122,15 +120,19 @@ body {
   border: 1px solid green;
   width: 60%;
   /* position: relative; */
-  margin: auto; 
+  margin: 30px auto; 
 
+}
+
+.loop{
+  margin-left: 440px;
 }
 
 #container1{
   border: 2px solid yellow;
   position: relative;
-  margin-right: 45px;
-  height: 500px;
+  margin-right: 55px;
+  height: 450px;
 }
 
 .ig{
@@ -138,6 +140,7 @@ body {
   width: 180px;
   height: 300px;
   margin: 70px auto 0px;
+  
 }
 
 .img1 {
@@ -145,6 +148,7 @@ body {
   height: auto;
   width: 100%;  
   z-index: 0;
+  
 }
 
 .titre1 {
@@ -155,6 +159,11 @@ body {
   z-index: 1;
   text-transform: uppercase;
   letter-spacing: 2px;
+  /* position: fixed; */
+  width: 17px;
+  min-width: 16px;
+  /* font-size: calc(5px + 1.3vw);  */
+  
 }
 
 .creations {
@@ -183,13 +192,14 @@ body {
   position: relative;
   height: auto;
   width: 100%; 
+  
  
 }
 
 .titre2 {
   position: absolute;
   margin-top: -62px;
-  margin-left: 50px;
+  margin-left: 85px;
   color: white;
   z-index: 1;
   text-transform: uppercase;
@@ -206,7 +216,7 @@ body {
 .titre3 {
   position: absolute;
   margin-top: -62px;
-  margin-left: 50px;
+  margin-left: 75px;
   color: white;
   z-index: 1;
   text-transform: uppercase;
@@ -222,7 +232,7 @@ body {
 .titre4 {
   position: absolute;
   margin-top: -62px;
-  margin-left: 50px;
+  margin-left: 110px;
   color: white;
   z-index: 1;
   text-transform: uppercase;
@@ -238,7 +248,7 @@ body {
 .titre5 {
   position: absolute;
   margin-top: -62px;
-  margin-left: 100px;
+  margin-left: 65px;
   color: white;
   z-index: 1;
   text-transform: uppercase;
@@ -254,7 +264,7 @@ body {
 .titre6 {
   position: absolute;
   margin-top: -62px;
-  margin-left: 50px;
+  margin-left: 65px;
   color: white;
   z-index: 1;
   text-transform: uppercase;
@@ -270,7 +280,7 @@ body {
 .titre7 {
   position: absolute;
   margin-top: -62px;
-  margin-left: 50px;
+  margin-left: 60px;
   color: white;
   z-index: 1;
   text-transform: uppercase;
@@ -286,7 +296,7 @@ body {
 .titre8 {
   position: absolute;
   margin-top: -62px;
-  margin-left: 50px;
+  margin-left: 85px;
   color: white;
   z-index: 1;
   text-transform: uppercase;
@@ -296,14 +306,14 @@ body {
 .bas {
   background-color: black;
   color: white;
-  margin-top: 95px;
+  /* margin-top: 95px; */
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
 .left {
-  width: 90%;
+  margin-left: 200px;
   
 }
 
@@ -312,6 +322,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 300px;
   /* justify-content: space-around; */
 }
 
@@ -319,16 +330,22 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 60%;
+  width: 80%;
   height: 70px;
   justify-content: space-between;
-  margin-left: 87px;
+  margin-left: 0px;
+  margin-right: 250px;
+}
+
+.item1, .item2, .item3, .item4, .item5 {
+  margin: 2px;
 }
 
 .loop {
-  margin-bottom: 30px;
-  padding-top: 25px;
-  margin-left: 90px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-left: 19px;
+  justify-content: center; 
   font-weight: bold;
 }
 
@@ -337,8 +354,9 @@ body {
 }
 
 .reserved {
-  margin-left: 10px;
-  margin-bottom: 19px;
+  margin-right: 210px;
+  margin-bottom: 8px;
+  padding-bottom:24px;
   /* padding-right: 15px; */
 }
 
@@ -366,6 +384,8 @@ body {
   background-color: black;
   color: white;
   padding-bottom: 10px;
+  font-size: 15px;
+  
 }
 
 .img_mobile1, .img_mobile2, .img_mobile3, .img_mobile4, .img_mobile5, .img_mobile6, .img_mobile7, .img_mobile8 
@@ -497,7 +517,7 @@ body {
   }
 
   .fond {
-    margin-top: 2460px;
+    margin-top: 20px;
     margin-bottom: 30px;
     text-align: center;
     color: black;
@@ -505,12 +525,12 @@ body {
   }
 
   .bas {
-    margin-top: 2500px;
+    margin-top: 50px;
     position: absolute;
     width: 100%;
   }
 
-  .titre1 {
+  /* .titre1 {
     margin-left: 30px;
   }
 
@@ -540,7 +560,7 @@ body {
 
   .titre8 {
     margin-left: 30px;
-  }
+  } */
 
   .bas {
     display: flex;
@@ -549,10 +569,13 @@ body {
 
   .left {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 30px;
-    margin-left: 70px;
-    margin-top: 10px;
+    margin-right: 190px;
+    border: 2px orchid  ;
+  
+    /* margin-top: 10px; */
     /* justify-content: space-between; */
   }
 
@@ -563,8 +586,9 @@ body {
     /* justify-content: space-between; */
     /* margin-left: 190px; */
     width: 100%;
-    margin-top: 10px;
+    margin-top: 60px;
     margin-left: 1px;
+    justify-content: center;
   }
 
   .fb {
@@ -572,12 +596,15 @@ body {
   }
 
   .loop {
-    margin-left: 75px;
+    
+    margin-left: 7px;
   }
 
   .reserved {
-    margin-left: 35px;
-    margin-top: 15px;
+  
+    margin-right: 20px;
+    
+   
   }
   .item3{
     margin-top: 5px;
@@ -675,7 +702,7 @@ body {
     flex-direction: column;
     width: 300px;
     height: 100px;
-    margin: 500px 140px;
+    margin: 500px 180px;
    
   } 
 
@@ -699,7 +726,8 @@ body {
   }
 
   .interactive{
-    margin: auto;
+    margin-left: 80px;
+    
   }
 
   .creations {
@@ -713,7 +741,7 @@ body {
   }
 
   .fond {
-    margin-top: 2460px;
+    margin-top: 20px;
     margin-bottom: 30px;
     text-align: center;
     color: black;
@@ -721,12 +749,18 @@ body {
   }
 
   .bas {
-    margin-top: 2500px;
+    margin-top: 20px;
     position: absolute;
     width: 100%;
   }
 
-  .titre1 {
+  .loop{
+    margin-left: 70px;
+    margin-top: 20px;
+    /* font-weight: bold; */
+  }
+
+  /* .titre1 {
     margin-left: 340px;
   }
 
@@ -756,7 +790,7 @@ body {
 
   .titre8 {
     margin-left: 340px;
-  }
+  } */
 
   .bas {
     display: flex;
@@ -791,15 +825,16 @@ body {
   }
 
   .loop {
-    margin-left: 75px;
+    margin-left: 210px;
   }
 
   .reserved {
-    margin-left: 35 px;
+    margin-left: 50px;
     margin-top: 55px;
   }
 
-  /* .container3{
-    margin-bottom: 10px;
-  } */
+   #container3{
+     margin-left: -25px; 
+     margin-right: 430px;
+  } 
 }
